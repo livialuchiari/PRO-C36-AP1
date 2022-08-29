@@ -19,16 +19,7 @@ class Form {
     this.input.hide();
   }
 
-  handleMousePressed() {
-    this.playButton.mousePressed(() => {
-      this.input.hide();
-      this.playButton.hide();
-      var message = `
-      Olá, ${this.input.value()}
-      </br>espere o outro jogador entrar...`;
-      this.greeting.html(message);
-    });
-  }
+ // handlemousepressed
 
   display() {
     this.setElementsPosition();
